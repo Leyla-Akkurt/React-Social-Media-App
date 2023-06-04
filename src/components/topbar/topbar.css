@@ -1,6 +1,6 @@
 .topbarContainer{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1877f2;
     height: 50px;
     position: sticky;
@@ -14,9 +14,10 @@
     display: flex;
     align-items: center;
     font-weight: 500;
-    justify-content: center;
+    justify-content: flex-start;
     font-size: 24px;
     cursor: pointer;
+    margin-left:20px;
 }
 .topbarCenter{
   flex:5;
