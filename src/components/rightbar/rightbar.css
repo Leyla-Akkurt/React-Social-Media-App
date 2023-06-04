@@ -25,34 +25,13 @@
   flex-direction: column;
 }
 .rightbarFriendsText {
-  font-weight: bold;
-}
-.rightbarFriend {
-  margin-top: 15px;
-  display: flex;
-  align-items: center;
-}
-.rightbarImageContainer {
-  position: relative;
-}
-.circle {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: limegreen;
-  position: absolute;
-  top: -2px;
-  right: 0;
-  border: 2px solid white;
-}
-.rightbarProfileImg {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-.rightbarUserName {
-  margin-left: 10px;
-  font-weight: 500;
   font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
+
+/* @media screen and (max-width: 852px) {
+  .rightbar_container{
+  display: none;
+}
+} */

@@ -1,99 +1,124 @@
-.topbarContainer{
-    display:flex;
-    justify-content: space-between;
-    background-color: #1877f2;
-    height: 50px;
-    position: sticky;
-    top:0;
-    z-index: 999;
-
+.topbarContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1877f2;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
-.topbarLeft{
-    flex:3;
-    color:white;
-    display: flex;
-    align-items: center;
-    font-weight: 500;
-    justify-content: flex-start;
-    font-size: 24px;
-    cursor: pointer;
-    margin-left:20px;
+.topbarLeft {
+  flex: 3;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  justify-content: flex-start;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 20px;
 }
-.topbarCenter{
-  flex:5;
-  display:flex;
+.topbarCenter {
+  flex: 5;
+  display: flex;
   align-items: center;
   margin-right: 15px;
 }
-.topbarItem{
-    background-color: white;
-    border-radius: 20px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    height:30px;
+.topbarItem {
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 30px;
 }
-.searchIcon{
-    margin-left:5px;
-    font-size:20px !important ;
+.searchIcon {
+  margin-left: 5px;
+  font-size: 20px !important ;
 }
-.topbarInput{
-    width:70%;
-    margin-left:10px;
-    border:none;
-
+.topbarInput {
+  width: 70%;
+  margin-left: 10px;
+  border: none;
 }
-.topbarInput:focus{
-    outline:none;
-
+.topbarInput:focus {
+  outline: none;
 }
-.topbarRight{
- flex:4;
- display:flex;
- justify-content: space-around;
- align-items: center;
+.topbarRight {
+  flex: 4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.topbarLink{
-  color:white;
+.topbarLink {
+  color: white;
   margin-right: 10px;
   font-size: 14px;
   cursor: pointer;
 }
-.topbarIcons{
-    display:flex;
+.topbarIcons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.topbarIconItem {
+  color: white;
+}
+.topbarIcon {
+  position: relative;
+}
+.topbarIconBadge {
+  color: white;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 12px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbarImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* @media screen and (max-width: 750px) {
+  .topbarContainer {
+    height: 75px;
     align-items: center;
-    gap:15px;
+    gap: 5px;
+  }
+  .topbarInput {
+    width: 100%;
+  }
+  .topbarLeft {
+    font-size: 18px;
+    flex: 2;
+  }
+  .topbarCenter {
+    flex: 6;
+  }
+  .topbarLink {
+    font-size: 14px;
+  }
+  .topbarIcons {
+    font-size: 10px !important;
+  }
+} */
 
-}
-.topbarIconItem{
-    color:white;
-
-
-}
-.topbarIcon{
-    position:relative;
-}
-.topbarIconBadge{
-    color:white;
-    width:15px;
-    height:15px;
-    background-color: red;
-    border-radius: 50%;
-    font-size: 12px;
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-}
-.topbarImg{
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    object-fit: cover;
-    cursor:pointer;
+/* @media screen and (max-width: 630px) {
+  .topbarLink{
+    display:none;
+  }
 }
 
+@media screen and (max-width: 500px) {
+
+  } */

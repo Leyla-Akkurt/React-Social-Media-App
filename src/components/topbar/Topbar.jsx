@@ -10,12 +10,13 @@ function Topbar() {
       <div className="topbarLeft"> ZED Social</div>
       <div className="topbarCenter">
         <div className="topbarItem">
-
-
-         <SearchIcon className="searchIcon" />
-        <input className="topbarInput" type="search" placeholder="Search for friend, post or video"/>
+          <SearchIcon className="searchIcon" />
+          <input
+            className="topbarInput"
+            type="search"
+            placeholder="Search for friend, post or video"
+          />
         </div>
-
       </div>
       <div className="topbarRight">
         <div className="topbarLinks">
@@ -24,22 +25,22 @@ function Topbar() {
         </div>
         <div className="topbarIcons">
           <div className="topbarIcon">
-            <PersonIcon className="topbarIconItem"/>
+            <PersonIcon className="topbarIconItem" />
             <span className="topbarIconBadge">1</span>
           </div>
 
           <div className="topbarIcon">
-            <ChatIcon className="topbarIconItem"/>
+            <ChatIcon className="topbarIconItem" />
             <span className="topbarIconBadge">3</span>
           </div>
 
           <div className="topbarIcon">
-            <NotificationsIcon className="topbarIconItem"/>
+            <NotificationsIcon className="topbarIconItem" />
             <span className="topbarIconBadge">2</span>
           </div>
         </div>
         <div>
-          <img src="src\assets\person\1.jpeg"  className="topbarImg"/>
+          <img src="src\assets\person\1.jpeg" className="topbarImg" />
         </div>
       </div>
     </div>
