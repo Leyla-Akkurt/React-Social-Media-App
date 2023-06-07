@@ -2,6 +2,8 @@ import "./rightbar.css";
 import { Users } from "../../data";
 import Online from "../online/Online";
 import UserFriends from './../userFriends/UserFriends';
+import Gift from '../../assets/gift.png';
+import Ad from '../../assets/ad.png';
 
 function Rightbar({ profile }) {
   const [first,second,...newUser]=Users;
@@ -10,12 +12,12 @@ function Rightbar({ profile }) {
     return (
       <>
         <div className="birthdayContainer">
-          <img src="src\assets\gift.png" alt="" className="birthdayImg" />
+          <img src={Gift} alt="" className="birthdayImg" />
           <span className="birthdayText">
             <b>Pole Foster</b> and <b>3 other friends</b> have a birthday today.
           </span>
         </div>
-        <img src="src\assets\ad.png" alt="" className="rightbarAd" />
+        <img src={Ad} alt="" className="rightbarAd" />
         <ul className="rightbarFriends">
           <span className="rightbarFriendsText">Online Friends</span>
           {Users.map((user) => (
