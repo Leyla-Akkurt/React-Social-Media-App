@@ -1,0 +1,77 @@
+.registerWrapper {
+    padding: 200px;
+    background-color: #f0f0f5;
+    height: 500px;
+    display: flex;
+    margin: 150px;
+    align-items: center;
+    justify-content: center;
+  }
+  .registerLeft {
+    flex: 1;
+  }
+  .registerRight {
+    flex: 1;
+  }
+  .registerLogo {
+    color: #1775ee;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .registerDesc {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .registerBox {
+    margin: 30px;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .registerInput {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+   padding-left: 20px;
+   font-size: 18px;
+  }
+  .registerInput:focus{
+      outline: none;
+  }
+  .registerButton {
+    margin: 5px;
+    padding: 5px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #1775ee;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .registerForgot {
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    color: #1775ee;
+    cursor: pointer;
+  }
+  .logIntoAccount {
+    background-color: #42b72a;
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    align-self: center;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+  }

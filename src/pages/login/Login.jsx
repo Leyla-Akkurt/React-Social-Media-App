@@ -12,9 +12,9 @@ function Login() {
         </div>
         <div className="loginRight">
           <div className="loginBox">
-            <input type="email" className="email" placeholder="Email" />
-            <input type="password" className="password" placeholder="Password" />
-            <button className="login">Log In</button>
+            <input type="email" className="loginInput" placeholder="Email" />
+            <input type="password" className="loginInput" placeholder="Password" />
+            <button className="loginButton">Log In</button>
             <span className="loginForgot">Forgot Password?</span>
             <button className="loginRegister">Create a New Account</button>
           </div>
