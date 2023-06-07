@@ -2,6 +2,10 @@ import "./post.css";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { Users } from "../../data.js";
 import { useState } from "react";
+import Like from '../../assets/like.png';
+import Hearth from '../../assets/heart.png';
+
+
 
 function Post({ photo, desc, like, comment, userId, date }) {
   const [liked,setLiked]=useState(like);
@@ -36,8 +40,8 @@ function Post({ photo, desc, like, comment, userId, date }) {
         </div>
         <div className="postBottom">
           <div className="postBottomLeft">
-            <img src="src\assets\like.png" alt="" className="likeIcon" onClick={handleLike} />
-            <img src="src\assets\heart.png" alt="" className="likeIcon" onClick={handleLike} />
+            <img src={Like} alt="" className="likeIcon" onClick={handleLike} />
+            <img src={Hearth} alt="" className="likeIcon" onClick={handleLike} />
             <span className="postLikeCounter">{liked} people like it</span>
           </div>
           <div className="postBottomRight">

@@ -3,6 +3,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import PersonIcon from "@mui/icons-material/Person";
 import ChatIcon from "@mui/icons-material/Chat";
 import NotificationsIcon from "@mui/icons-material/Notifications";
+import TopbarImg from "../../assets/person/1.jpeg";
 
 function Topbar() {
   return (
@@ -40,7 +41,7 @@ function Topbar() {
           </div>
         </div>
         <div>
-          <img src="src\assets\person\1.jpeg" className="topbarImg" />
+          <img src={TopbarImg} className="topbarImg" />
         </div>
       </div>
     </div>

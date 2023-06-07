@@ -3,6 +3,7 @@ import PermMediaIcon from "@mui/icons-material/PermMedia";
 import LabelIcon from "@mui/icons-material/Label";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmojiEmotionsIcon from "@mui/icons-material/EmojiEmotions";
+import ShareImg from '../../assets/person/1.jpeg'
 
 function Share() {
   return (
@@ -10,7 +11,7 @@ function Share() {
       <div className="shareWrapper">
         <div className="shareTop">
           <img
-            src="src\assets\person\1.jpeg"
+            src={ShareImg}
             alt=""
             className="shareProfileImg"
           />
