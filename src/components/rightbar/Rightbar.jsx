@@ -1,10 +1,11 @@
 import "./rightbar.css";
 import { Users } from "../../data";
 import Online from "../online/Online";
-import CloseFriend from './../closeFriend/CloseFriend';
 import UserFriends from './../userFriends/UserFriends';
 
 function Rightbar({ profile }) {
+  const [first,second,...newUser]=Users;
+
   const HomeRightbar = () => {
     return (
       <>
@@ -44,17 +45,17 @@ function Rightbar({ profile }) {
             <span className="InfoKey">Relationship: </span>
             <span className="InfoValue">Single</span>
           </div>
-
+          </div>
         <h4 className="rightbarTitle">User Friends</h4>
           <div className="rightbarFollowings">
 
-            {Users.map(user=>(
+            {newUser.map(user=>(
               <UserFriends key={user.id} {...user}/>
             ))}
         </div>
 
 
-        </div>
+
       </>
     );
   };
